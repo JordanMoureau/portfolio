@@ -99,7 +99,7 @@
        <div class="ca">
         <h4>CodeCademy</h4>
         <h5>November 2022- Present</h5>
-        <p>I'm currently 50% through <a href="https://www.codecademy.com/profiles/jordannovember" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">CodeCademy.com</a> Front-End Engineer career path. What I've gained so far is a refresher on CSS & HTML, as well as a workable understanding of Javascript. Every spare moment has been decidated to this for the past four months. I have built and rebuilt, researched, tuted, read and bothered mentor <a href="briansgit.com" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">Brian Peck</a>, who's weakness is unsolved coding problems. <br><br>I've worked on grids, flex, I have my cert for intermediate CSS, I've dipped back gingerly into PHP and am looking forward to building an app with React as my next project. Be sure to check out my readme docs at Github for more details on each project I've worked on.</p>
+        <p>I'm currently 50% through <a href="https://www.codecademy.com/profiles/jordannovember" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">CodeCademy.com</a> Front-End Engineer career path. What I've gained so far is a refresher on CSS & HTML, as well as a workable understanding of Javascript. Every spare moment has been decidated to this for the past four months. I have built and rebuilt, researched, tuted, read and bothered mentor <a href="https://github.com/brianchristopherpeck" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">Brian Peck</a>, who's weakness is unsolved coding problems. <br><br>I've worked on grids, flex, I have my cert for intermediate CSS, I've dipped back gingerly into PHP and am looking forward to building an app with React as my next project. Be sure to check out my readme docs at Github for more details on each project I've worked on.</p>
     </div>
 
     <div class="lu">
@@ -155,15 +155,17 @@
         </div>
 
         <div class="sheet">
-            <form action= "https://api.web3forms.com/submit" method = "POST">
+            <form action= "https://api.web3forms.com/submit" method = "POST" id="form">
             <input type="hidden" name="access_key" value="9ae24ab6-5ab5-4498-bec3-c3a9c006e4d7">
             <h3 style="text-align:center;">Oh hai.</h3>
         <p style="text-align:center;">Contact me. I love mail.</p>
         <input type="text" name="inputBox" placeholder="name goes here" required>
         <input type="text" name="email" placeholder="email here, please" pattern="[@-.com]+" required>
-        <textarea placeholder="and messages here <3 " required></textarea>
+        <textarea type="text" name="message" placeholder="and messages here <3 " required></textarea>
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
         <input type="submit" value="submit" class="submit" action= "/form.html" method = "POST">
+
+        <div id="result"></div>
      </form>
         </div>
 

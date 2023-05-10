@@ -708,6 +708,14 @@ textarea:focus, input:focus{
   cursor:pointer;
 }
 
+#result{
+  color:#fff;
+  width: 100%;
+  padding:10px;
+  float:left;
+  font-family: "Metropolis black italic";
+}
+
 .maneki{
   grid-area: 1 / 1 / 1 / 1;
   background-image: url(images/maneki.png);
