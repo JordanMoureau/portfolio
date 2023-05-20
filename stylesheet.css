@@ -995,10 +995,6 @@ textarea:focus, input:focus{
       width:215px;
     }
 
-    textarea {
-      width: 215px;
-    }
-
     .maneki{
       position:absolute;
       z-index:0;
