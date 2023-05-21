@@ -636,11 +636,6 @@ html {
     
       .mobile-portfolio-wrap{
         width:100%;
-        border-radius: 20px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
         display:block;
         position:absolute;
         left:0px;
@@ -1100,6 +1095,7 @@ html {
     .mobile-portfolio-wrap{
         width: 90%;
         margin-left: 7px;
+        border-radius: 20px;
     }
 
 
