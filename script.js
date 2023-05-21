@@ -264,7 +264,7 @@ function bigOneMask() {
   }
   
   function bigOneClick (){
-    window.open("https://www.loveandflowers.com");
+    window.open("http://loveflowers.jordanmoureau.com/");
   }
   
   function bigOneOut() {
@@ -280,7 +280,7 @@ function bigOneMask() {
   }
   
   function bigTwoClick (){
-    window.open("https://www.emilywinter.com");
+    window.open("https://winter.jordanmoureau.com");
   }
   
   function bigTwoOut() {
@@ -290,7 +290,7 @@ function bigOneMask() {
   }
   
   function bigThreeClick (){
-    window.open("https://www.emilywinterpoetry.com");
+    window.open("https://blog.jordanmoureau.com");
   }
   
   function bigThreeMask() {
@@ -312,7 +312,7 @@ function bigOneMask() {
   }
   
   function bigFourClick (){
-    window.open("https://www.frontendblog.com");
+    window.open("https://wtwc.jordanmoureau.com");
   }
   
   function bigFourOut() {
@@ -327,9 +327,9 @@ function bigOneMask() {
     document.getElementById("bigFive").innerHTML = "For Keeping track of my Life.";
   }
   
-  function bigFiveClick (){
-    window.open("https://www.wtwc.com");
-  }
+ /* function bigFiveClick (){
+    window.open("https://todo.jordanmoureau.com");
+  }*/
   
   function bigFiveOut() {
     document.getElementById("bigFive").innerHTML = "";
