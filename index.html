@@ -3,105 +3,134 @@
 <head>
     <title>Jordan's Portfolio & Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favi-01.png"/>
 
 </head>
 
 <body>
-<div class="container">
-<div class="sub-top" id="home">The portfolio of</div>
-<div class="heading">jordan moureau</div>
+<div class="header" id="home">
 
-<div id="slidenav" class="sticky">
-    <div id="menu"></div>
-    <a id="myBtn"><img src="images/slideheart.png" width="37px" height="30px;"> </a>
-    <a href="#home" style="margin-top:12px">home</a>
-    <a href="#exp" style="margin-top:12px">resume</a>
-    <a href="#work" style="margin-top:12px">portfolio</a>
-    <a href="#contact" style="margin-top:12px">contact</a>
+    <div class="aboveheading">the portfolio of</div>
+    <div class="belowheading">jordan moureau</div>
+
 </div>
 
-<div class="social">
-    <div class="social-position">
-    <a href="https://www.pinterest.com/jordanfromnovember/" target="_blank"><img id="pint" src="images/pinterest.png" height="45px" width="45px"></a>
-    <a href="https://www.instagram.com/jordanfromnovember/" target="_blank"><img id="insta" src="images/instagram.png" height="45px" width="45px"></a>
-    <a href="https://github.com/JordanMoureau" target="_blank"><img id="github" src="images/github.png" height="45px" width="45px"></a>
-    <a href="https://www.behance.net/jordanfrome169" target="_blank"><img id="beh" src="images/behance.png" height="45px" width="45px"></a>
+    <div id="slidenav" class="sticky">
+        <div id="menu"></div>
+        <a id="heartbutton"><img src="images/slideheart.png" width="37px" height="30px;"> </a>
+        <a href="#home" style="margin-top:12px">home</a>
+        <a href="#resume" style="margin-top:12px">resume</a>
+        <a href="#portfolio" style="margin-top:12px">portfolio</a>
+        <a href="#contact" style="margin-top:12px">contact</a>
     </div>
-</div>
 
+    <div class="social">
+        <div class="social-position">
+        <a href="https://www.pinterest.com/jordanfromnovember/" target="_blank"><img id="pint" src="images/pinterest.png" height="45px" width="45px"></a>
+        <a href="https://www.instagram.com/jordanfromnovember/" target="_blank"><img id="insta" src="images/instagram.png" height="45px" width="45px"></a>
+        <a href="https://github.com/JordanMoureau" target="_blank"><img id="github" src="images/github.png" height="45px" width="45px"></a>
+        <a href="https://www.behance.net/jordanfrome169" target="_blank"><img id="beh" src="images/behance.png" height="45px" width="45px"></a>
+        </div>
+    </div>
 
     <div class="hero" id="hero"></div>
     <div class="bar"> </div>
-    <div class="lotsoflittle">
-        <h3>Lots of little things add up</h3>
-        <p>I love pork buns and bad weather. My name means a river in the desert, I think there's something about it that makes me chronically optimistic. I'm passionate about stories, movies, books, tv, anything with a plot arch. I write all the time. I have these five subject notebooks that I fill with thoughts, plans, projects, goals, and lots of lists with little check boxes. I'm always on some kind of tiny serious mission in life, the steps of which I detail in my notebooks. <br><br>My special skill is building complex abstract things. Every project is a secret world I can sink into. Whether it's a book, a website or a design, to me its a whole world. All my own.</p>
 
-        <div class="icons">
-            <div class="badweather"><img src="images/badweather.png" height="180px" width="180px"></div>
-            <div class="books"><img src="images/books.png"height="180px" width="180px"></div>
-            <div class="andponies"><img src="images/ponies.png"height="180px" width="180px"></div>
-        </div>
+<div class="mybio">
+    <h3>Lots of little things add up</h3>
+        <p>I love pork buns and bad weather. My name means a river in the desert and I think there's something about it that makes me chronically optimistic. I have these five subject notebooks that I fill with thoughts, plans, projects, goals, and lots of lists with little check boxes.<br><br>My special skill is building complex abstract things. Every project is a secret world I can sink into. Whether it's a book, a website or a design, to me its a whole world. All my own.</p>
+</div>
+
+<div class="icons">
+    <div class="badweather"><img src="images/badweather.png" height="180px" width="180px"></div>
+    <div class="books"><img src="images/books.png"height="180px" width="180px"></div>
+    <div class="andponies"><img src="images/ponies.png"height="180px" width="180px" style="overflow:hidden"></div>
+</div>
+
+<div class="desdev">designer & Developer</div>
+<div class="over-desdev">
+    <div class="desdev-explained">
+    <h4>As Designer:</h4> <p>Design is like <em>wooing</em>. You have to make them burn for it, give them something they didn't see coming.<br><br> The next steps for me are gaining refinement. My strengths are iconography, UX/UI (I love digging into how people use/experience what I make), logos and websites.</p><br><h5>Also as an aside, all of the taglines for my portfolio pieces are original. Except the poem. That's Emily Dickenson.</h5>
+    </div>
+
+
+    <div class="desdev-explained">
+        <h4>As Developer:</h4> <p>Adding the dimension of time to space is what UX/UI and web development is for me. Javascript is my new best friend, lately and I'm super excited to start digging into paralax scroll which is my next project. <br><br>I can always rely on programming to be a yes or no answer. Either it works or it doesn't. It's a comforting step out of the world of subjective art that keeps me out of my head.</p>
+    </div>
+
+</div>
+
+<div class="exp" id="resume">
+    My experience
+</div>
+
+<div id="references">
+    <div class="bubbles" onmouseover="mOver(this)" onmouseout="mOut(this)">
+        Brian Peck</div>
+    <div class="bubbles" onmouseover="mOverjesse(this)" onmouseout="mOutjesse(this)">Jesse Villalpando</div>
+    <div class="bubbles" onmouseover="mOverjen(this)" onmouseout="mOutjen(this)">Jen Franklin</div>
+    <div class="bubbles" onmouseover="mOvermark(this)" onmouseout="mOutmark(this)">Mark Norisada</div>
     
-    </div>
-    <div class="sectionheaders" id="exp">My Experience</div>
+</div>
 
-    <div id="references">
-        <div class="bubbles" onmouseover="mOver(this)" onmouseout="mOut(this)">
-            Brian Peck</div>
-        <div class="bubbles" onmouseover="mOverjesse(this)" onmouseout="mOutjesse(this)">Jesse Villalpando</div>
-        <div class="bubbles" onmouseover="mOverjen(this)" onmouseout="mOutjen(this)">Jen Franklin</div>
-        <div class="bubbles" onmouseover="mOvermark(this)" onmouseout="mOutmark(this)">Mark Norisada</div>
-        
-    </div>
 
-    <div class="exp">
-        <h4>Clermont Equestrian Center</h4>
-        <h5>July 2014 - June 2015</h5>
-        <p>I’ve worked with and ridden horses most of my life, but arriving at a skill level where a professional barn wanted to hire me to exercise ride was a huge accomplishment. As most atheletic work goes, my biggest challenege was texting the limits of my body and my greatest sucess was when I figured out crosstraining vastly changed what I was capable of in the saddle. </p>
-    </div>
+<div class="exp-container">
+    <h4>Picc Excellence Inc</h4>
+        <h5>June 2013 - January 2015</h5>
+        <p>In college I worked part-time for a small nursing education company out of northern Georgia. I was their only designer and in the two years I was there I tweaked their branding, designed and built a website, and designed a conference booth for them. My other jobs were planning/designing/coding email campagins, flyers and crafting advertising copy.</p>
+</div>
 
-    <div class="exp">
-        <h4>Idaho Central Credit Union</h4>
+<div class="exp-container">
+    <h4>Clermont Equestrian Center</h4>
+    <h5>July 2014 - June 2015</h5>
+    <p>I’ve worked with and ridden horses most of my life, but arriving at a skill level where a professional barn wanted to hire me to exercise ride was a huge accomplishment. As most atheletic work goes, my biggest challenege was testing the limits of my body and my greatest sucess was when I figured out crosstraining vastly changed what I was capable of in the saddle. </p>
+</div>
+
+<div class="exp-container">
+    <h4>Idaho Central Credit Union</h4>
         <h5>July 2022 - November 2022</h5>
-        <p>Landing a job with the Green Team was another big accomplishment. They only hire 5% of their applicants, ranked one of the top places in Idaho to work, and I did them proud by hitting the top 10% of MSR's in the company for branch referals in the month of October. ICCU was another link in the chain building a path to discovering what I am capable of. It was a highly competitive work environment and in a group of really intelligent driven people that I respected-- I fit in and I added value. It's been a pleasant surprise to find out that no matter where I go, I pick things up lightning fast.</p>
-    </div>
+        <p>Landing a job with the Green Team was another big accomplishment. They only hire 5% of their applicants, ranked one of the top places in Idaho to work, and I did them proud by hitting the top 10% of MSR's in the company for branch referals in the month of October.</p>
+</div>
 
-    <div class="exp">
-        <h4>Spokane Teachers Credit Union</h4>
-        <h5>November 2022 - Present</h5>
-        <p>Leaving the Green Team was tough, but my dreams were starting to take shape and having a shorter comute to work gave me more time to pursue them so I secured a position at another great credit union a few minutes from my house. At STCU I've grown a lot. I won the TMA award, company wide, for the month of April. The Member Advantage is a special training that we go through to understand how best to recomend products and connect with people. Each month there are a set of nominees and I won April before I'd even gone through the TMA training program. I've brought a lot of value to the team, streamlining processes that were unnecessarily complex and fine tuning a few aspects of the teamwork of the branch.</p>
-    </div>
+<div class="exp-container">
+    <h4>Spokane Teachers Credit Union</h4>
+    <h5>November 2022 - Present</h5>
+    <p>At STCU I've grown a lot. I won the TMA award, company wide, for the month of April. I've brought a lot of value to the team, streamlining processes and fine tuning a few aspects of the teamwork of the branch.</p>
+</div>
 
-    <div id="mediatabone">CLERMONT</div>
-    <div id="mediaone" onclick="slideOut()"><img src="images/jumpyjumpy.gif" width="325px" height="325px"></div>
-    <div id="mediatabtwo">ICCU</div>
-    <div id="mediatwo" onclick="slideOutTwo()"><img src="images/ICCU.png" width="325px" height="325px"></div>
-    <div id="mediatabthree">STCU</div>
-    <div id="mediathree" onclick="slideOutThree()"><img src="images/stcu.png" width="325px" height="325px"></div>
+<div id="mediatabone">CLERMONT</div>
+<div id="mediaone" onclick="slideOut()"><img src="images/jumpyjumpy.gif" width="325px" height="325px"></div>
+<div id="mediatabtwo">ICCU</div>
+<div id="mediatwo" onclick="slideOutTwo()"><img src="images/ICCU.png" width="325px" height="325px"></div>
+<div id="mediatabthree">STCU</div>
+<div id="mediathree" onclick="slideOutThree()"><img src="images/stcu.png" width="325px" height="325px"></div>
 
+<div class="exp">my education</div>
 
-    <div class="desdev">DESIGNER & DEVELOPER</div>
+<div id="skills">
+    <div id="javascript" class="bubbles" style="animation-duration: 3.5s;" onclick="functJavaScript()" >JAVASCRIPT</div>
+    <div id="htmlcss" class="bubbles" style="animation-duration: 4s;">HTML & CSS</div>
+    <div id="research" class="bubbles"style="animation-duration: 2.6s;" onclick="functResearch()">TAKES FEEDBACK</div>
+</div>
 
-    <div id="skills">
-        <div id="javascript" class="bubbles" style="animation-duration: 3.5s;" onclick="functJavaScript()" >JAVASCRIPT</div>
-        <div id="htmlcss" class="bubbles" style="animation-duration: 4s;">HTML & CSS</div>
-        <div id="research" class="bubbles"style="animation-duration: 2.6s;" onclick="functResearch()">RESEARCH</div>
-        <div id="highenergy" class="bubbles"style="display:none;" onclick="functHighEnergy()">HIGH ENERGY</div>
-        <div id="resource" class="bubbles"style="display:none;" onclick="functGit()">RESOURCEFUL</div>
-        <div id="git" class="bubbles"style="display:none;" onclick="functGit()">GIT & GITHUB</div>
-        <div id="coach" class="bubbles"style="display:none;">COACHABLE</div>
-        <div id="goals" class="bubbles"style="display:none;">GOAL ORIENTED</div>
-    </div>
+<div id="skills">
+    <div id="highenergy" class="bubbles"style="display:none;" onclick="functHighEnergy()">CLASSIC OVERACHIEVER</div>
+    <div id="resource" class="bubbles"style="display:none;" onclick="functGit()">RESOURCEFUL</div>
+</div>
 
-    <div class="edu">
-       <div class="ca">
-        <h4>CodeCademy</h4>
-        <h5>November 2022- Present</h5>
-        <p>I'm currently 50% through <a href="https://www.codecademy.com/profiles/jordannovember" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">CodeCademy.com</a> Front-End Engineer career path. What I've gained so far is a refresher on CSS & HTML, as well as a workable understanding of Javascript. Every spare moment has been decidated to this for the past four months. I have built and rebuilt, researched, tuted, read and bothered mentor <a href="https://github.com/brianchristopherpeck" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">Brian Peck</a>, who's weakness is unsolved coding problems. <br><br>I've worked on grids, flex, I have my cert for intermediate CSS, I've dipped back gingerly into PHP and am looking forward to building an app with React as my next project. Be sure to check out my readme docs at Github for more details on each project I've worked on. <br><br> I've also had two sites featured in Codecademy's <a href="https://www.codecademy.com/pages/project-showcase?utm_campaign=camp~learner_showcase_2023~prod~Pro~geo~All~aud~Pro_User~funn_Awareness~msg~Blank~cont~CTA_Button~sited~Campaign_LP~time~2023Q2~&utm_content=paid_showcase_cta_1&utm_source=iterable&utm_medium=email" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">student showcase.</a> May and June.</p>
-    </div>
+<div id="skills">
+    <div id="goals" class="bubbles"style="display:none;" onclick="functResource()">ORGANIZED</div>
+    <div id="coach" class="bubbles"style="display:none;">TEAM PLAYER</div>
+</div>
 
+<div id="skills">
+    <div id="git" class="bubbles"style="display:none;" onclick="functGit()">GIT & GITHUB</div>
+</div>
+
+<div class="education">
+
+    <div class="edustacker-wrapper">
     <div class="lu">
         <h4>Lander University</h4>
         <h5>August 2012- January 2014</h5>
@@ -115,63 +144,82 @@
     </div>
     </div>
 
-    <div class="work" id="work">
-        <div class="grid-one">
-            <div class="heart"></div>
-            <div class="big-one" id="bigOne" onmouseover="bigOneMask()" onmouseout="bigOneOut()" onclick="bigOneClick()"><a href="https://www.loveandflowers.com/" target="_blank>"></a></div>
-            <div class="little-one" id="littleOne" onmouseover="littleOneMask()" onmouseout="littleOneOut()"></div>
-             <div class="little-two" id="littleTwo" onmouseover="littleTwoMask()" onmouseout="littleTwoOut()"></div>
-             <div class="little-three" id="littleThree" onmouseover="littleThreeMask()" onmouseout="littleThreeOut()"></div>
-             <div class="little-four" id="littleFour" onmouseover="littleFourMask()" onmouseout="littleFourOut()"></div>
-          </div>
-      
-          <div class="grid-two">
-              <div class="big-two" id="bigTwo" onmouseover="bigTwoMask()" onmouseout="bigTwoOut()" onclick="bigTwoClick()"></div>
-              <div class="big-three" id="bigThree" onmouseover="bigThreeMask()" onmouseout="bigThreeOut()" onclick="bigThreeClick()"></div>
-              <div class="big-four" id="bigFour" onmouseover="bigFourMask()" onmouseout="bigFourOut()" onclick="bigFourClick()"></div>
-          </div>
-      
-          <div class="grid-three">
-              <div class="little-five"></div>
-              <div class="little-six"></div>
-              <div class="little-seven"></div>
-              <div class="little-eight"></div>
-          </div>
-      
-           <div class="grid-four">
-              <div class="big-five" id="bigFive" onmouseover="bigFiveMask()" onmouseout="bigFiveOut()" onclick="bigFiveClick()"></div>
-              <div class="little-nine" id="littleNine" onmouseover="littleNineMask()" onmouseout="littleNineOut()"></div>
-              <div class="little-ten" id="littleTen"onmouseover="littleTenMask()" onmouseout="littleTenOut()"></div>
-              <div class="heart-two"></div>
-          </div>
+    <div class="ca">
+        <h4>CodeCademy</h4>
+        <h5>November 2022- Present</h5>
+        <p>I'm currently 50% through <a href="https://www.codecademy.com/profiles/jordannovember" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">CodeCademy.com</a> Front-End Engineer career path. What I've gained so far is a refresher on CSS & HTML, as well as a workable understanding of Javascript. I have built and rebuilt, researched, tuted, read and bothered mentor <a href="https://github.com/brianchristopherpeck" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">Brian Peck</a>, who's weakness is unsolved coding problems. <br><br>Be sure to check out my readme docs at Github for more details on each project I've worked on. <br><br> I've also recently had my project Maneki Neko featured in Codecademy's <a href="https://www.codecademy.com/pages/project-showcase?utm_campaign=camp~learner_showcase_2023~prod~Pro~geo~All~aud~Pro_User~funn_Awareness~msg~Blank~cont~CTA_Button~sited~Campaign_LP~time~2023Q2~&utm_content=paid_showcase_cta_1&utm_source=iterable&utm_medium=email" target="_blank" style="color:#FF597B; font-family: Metropolis bold;">student showcase</a> for April.</p>
+    </div>
+</div>
 
-          <div class="mobile-portfolio-wrap">
-            <div class="mobile-portfolio">
-                <div class="item">
-                    <div class="img-div"> </div>
-                </div>
-                <div class="item">
-                    <div class="img-div"> </div>
-                </div>
-                <div class="item">
-                    <div class="img-div"> </div>
-                </div>
-    
-                <div class="item">
-                    <div class="img-div"> </div>
-                </div>
-                <div class="item">
-                    <div class="img-div"> </div>
-                </div>
+<div class="work" id="portfolio">
+    <div class="mobile-portfolio-wrap">
+        <div class="mobile-portfolio">
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
+            </div>
+            <div class="item">
+                <div class="img-div"> </div>
             </div>
         </div>
     </div>
 
+    <div class="grid-one">
+        <div class="heart"></div>
+        <div class="big-one" id="bigOne" onmouseover="bigOneMask()" onmouseout="bigOneOut()" onclick="bigOneClick()"></div>
+        <div class="little-one" id="littleOne" onmouseover="littleOneMask()" onmouseout="littleOneOut()"></div>
+         <div class="little-two" id="littleTwo" onmouseover="littleTwoMask()" onmouseout="littleTwoOut()"></div>
+         <div class="little-three" id="littleThree" onmouseover="littleThreeMask()" onmouseout="littleThreeOut()"></div>
+         <div class="little-four" id="littleFour" onmouseover="littleFourMask()" onmouseout="littleFourOut()"></div>
+      </div>
 
+      <div class="grid-two">
+        <div class="big-two" id="bigTwo" onmouseover="bigTwoMask()" onmouseout="bigTwoOut()" onclick="bigTwoClick()"></div>
+        <div class="big-three" id="bigThree" onmouseover="bigThreeMask()" onmouseout="bigThreeOut()" onclick="bigThreeClick()"></div>
+        <div class="big-four" id="bigFour" onmouseover="bigFourMask()" onmouseout="bigFourOut()" onclick="bigFourClick()"></div>
+    </div>
 
-<div class="contact-me" id="contact">
-    
+    <div class="grid-four">
+        <div class="big-five" id="bigFive" onmouseover="bigFiveMask()" onmouseout="bigFiveOut()" onclick="bigFiveClick()"></div>
+        <div class="little-nine" id="littleNine" onmouseover="littleNineMask()" onmouseout="littleNineOut()"></div>
+        <div class="little-ten" id="littleTen"onmouseover="littleTenMask()" onmouseout="littleTenOut()"></div>
+        <div class="heart-two"></div>
+    </div>
+  
+
+</div>
+
+    <div class="contact-me" id="contact">
         
+            
         <div class="maneki">
             <div class="animated paw" >
                 <img src="images/paw.png" height="135px" width="90px">
@@ -180,26 +228,22 @@
 
         <div class="sheet">
             <form action= "https://api.web3forms.com/submit" method = "POST" id="form">
-            <input type="hidden" name="access_key" value="9ae24ab6-5ab5-4498-bec3-c3a9c006e4d7">
-            <h3 style="text-align:center;">Oh hai.</h3>
-        <p style="text-align:center;">Contact me. I love mail.</p>
-        <input type="text" name="inputBox" placeholder="name goes here" required>
-        <input type="text" name="email" placeholder="email here, please" pattern="[@-.com]+" required>
-        <textarea type="text" name="message" placeholder="and messages here <3 " required></textarea>
-        <input id="submit" type="submit" value="submit" class="submit" action= "/form.html" method = "POST">
+                <input type="hidden" name="access_key" value="9ae24ab6-5ab5-4498-bec3-c3a9c006e4d7">
+                <div class="sheet-head"><h3>Oh hai.</h3></div>
+                
+                <input type="text" name="inputBox" placeholder="name goes here" required>
+                <input type="text" name="email" placeholder="email here, please" pattern="[@-.com]+" required>
+                <textarea type="text" name="message" placeholder="and messages here <3 " required></textarea>
+                <input id="submit" type="submit" value="submit" class="submit" action= "/form.html" method = "POST">        
+        </form>
 
-        
-     </form>
-     <div id="message"></div>
-     <div id="result" class="result"></div>
-   
-        </div>
+    <div id="message"></div>
+    <div id="result" class="result"></div>
 
+    </div>
 </div>
 
 <script src="script.js"></script>
-
 </body>
-</div>
 
 </html>

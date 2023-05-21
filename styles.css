@@ -1,0 +1,1724 @@
+@font-face {   
+    font-family: "Metropolis med";   
+    src: url('fonts/Metropolis-Medium.otf') format('opentype');             
+  }
+  
+  @font-face {
+    font-family: "Metropolis bold";
+    src: url('fonts/Metropolis-Bold.otf') format('opentype'); 
+  }
+  
+  @font-face {
+    font-family: "Metropolis black";
+    src: url('fonts/Metropolis-Black.otf') format('opentype'); 
+  }
+
+  @font-face {
+    font-family: "Metropolis black italic";
+    src: url('fonts/Metropolis-BlackItalic.otf') format('opentype'); 
+  }
+
+  ::selection {
+    background: #FF597B;
+    color:#fff;
+  }
+  ::-moz-selection {
+    background: #FF597B;
+    color:#fff; 
+  }
+
+  ::-webkit-input-placeholder { /* Edge */
+    color: #F2AEC9;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #F2AEC9;
+  }
+  
+  ::placeholder {
+    color: #F2AEC9;
+  }
+
+  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+    background-color: #FF8999;
+  }
+
+  html::-webkit-scrollbar{
+    display:none;
+}
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+    color:inherit;
+    text-decoration: none;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+  @media screen and (min-width: 300px){
+    .container{
+        padding: 3px;
+    }
+    .social-position{
+        display:none;
+    }
+
+    .header{
+        width:100%;
+        font-family: "Metropolis black italic";
+        text-align: right;
+    }
+
+    .aboveheading{
+        background-color:#FF597B;
+        text-transform: lowercase;
+        color:#F2AEC9;
+        padding:3px 10px 3px 0px;
+        font-size: 25px;
+    }
+
+    .belowheading{
+        background-color:#fff;
+        text-transform: uppercase;
+        color:#FF597B;
+        font-size:35px;
+        padding:3px 10px 3px 0px;
+    }
+
+    .hero{
+        background-image: url("images/greenchair.png");
+        background-size: cover;
+        background-position: center;
+        height:450px;
+    }
+
+    #slidenav {
+        position:sticky;
+        z-index: 6;
+        overflow:hidden;
+        background-color:#FF597B;
+        color:#F2AEC9;
+        width: 45px;
+        border-bottom-left-radius: 18px;
+        padding: 5px 10px;
+        font-family: "Metropolis bold";
+        font-size: 14px;
+        float:right;
+        display:flex;
+      }
+    
+    .sticky{
+        position:fixed;
+        top:0px;
+        right:0px;
+        overflow:hidden;
+      }
+    
+    #slidenav a {
+        margin: 4px 15px 0px 4px;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+    #slidenav a:hover{
+        color:#FF8999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    
+      #heartbutton {
+        margin: 0px;
+      }
+
+      .bar{
+        background-color:#fff;
+        border-top: 15px solid #F2AEC9;
+        height: 10px;
+      }
+
+      .mybio{
+        margin: 0 auto;
+        padding: 40px 0px 10px 0px;
+        width: 300px;
+        color:#fff;
+      }
+
+      h3 {
+        font-family: "Metropolis bold";
+        font-size: 40px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+
+      p{
+        font-family: "Metropolis med";
+        font-size: 17px;
+        line-height:20px;
+      }
+
+      .icons{
+        padding: 20px 0px;
+        display: flex;
+        overflow: hidden;
+        width:100%;
+      }
+    
+      .badweather{
+        animation-name: bounce;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 2s;
+        margin-left:-35px;
+      }
+    
+    .books{
+        animation-name: bounce-two;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 2s;
+        margin-left: -30px;
+      }
+    
+    .andponies{
+        animation-name: bounce-three;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-delay:4s;
+        animation-direction: alternate;
+        margin-left: -30px;
+      }
+    
+      
+    
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-10px);}
+        60% {transform: translateY(-8px);}
+      }
+    
+    
+      @keyframes bounce-two {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-10px);}
+        80% {transform: translateY(-8px);}
+      }
+    
+      @keyframes bounce-three {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        20% {transform: translateY(-10px);}
+        60% {transform: translateY(-8px);}
+      }
+
+      .exp{
+        background-color:#F2AEC9;
+        color:white;
+        font-family: "Metropolis black italic";
+        padding: 8px 20px;
+        font-size:38px;
+        text-transform:uppercase;
+        margin: 33px 0px;
+        border-top: 10px solid #fff;
+        border-bottom: 10px solid #fff;
+      }
+
+      .exp-container{
+        margin: 0 auto;
+        padding: 20px 0px;
+        width: 300px;
+        color:#fff;
+      }
+
+      h4{
+        font-family: "Metropolis bold";
+        font-size: 32px;
+        color:#fff;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+    
+      h5 {
+        font-family: "Metropolis med"; 
+        font-style: italic;
+        font-size: 14px;
+        color:#fff;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+
+      .desdev{
+        background-color: #fff;
+        border-top: 15px solid #F2AEC9;
+        border-bottom: 15px solid #F2AEC9;
+        color:#F2AEC9;
+        font-family: "Metropolis black italic";
+        font-size: 45px;
+        text-align:center;
+        padding: 12px 0px;
+        line-height:35px;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+    }
+
+    .desdev-explained{
+        margin: 0 auto;
+        width: 300px;
+        padding: 20px 0px;
+        font-family: "Metropolis med";  
+        font-size: 17px;
+        color:#fff;
+    }
+
+    .education{
+        margin: 0px auto;
+        color:#fff;
+        width:300px;
+        padding: 20px 0px;
+    }
+
+    .lu{
+        padding: 20px 0px;
+    }
+
+    .cca{
+        padding: 20px 0px;
+    }
+
+    .ca{
+        padding: 20px 0px;
+    }
+
+      .work{
+        position: relative;
+      }
+    
+      .mobile-portfolio-wrap{
+        width:100%;
+        border-radius: 20px;
+        display:block;
+        position:absolute;
+        left:0px;
+        height:450px;
+        overflow:hidden;
+        background-color: #fff;
+      }
+    
+      .mobile-portfolio{
+        position:absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width:8450px;
+        display:flex;
+        will-change: transform;
+      }
+      
+      .item{
+        position:relative;
+        flex: 1;
+        overflow: hidden;
+      }
+    
+      .img-div{
+        position: relative;
+        width: 98%;
+        height: 100%;
+        background-size: cover;
+        background-position: top;
+      }
+
+
+.contact-me{
+    background-image: url(images/trippybackgroundpink.png);
+    background-size:cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    border-bottom:20px solid #fff;
+    border-top:20px solid #fff;
+    margin-top:460px;
+    position:relative;
+    display:flex;
+    font-family: "Metropolis med";
+    color: #fff;
+  }
+
+  .sheet-head{
+    background-color: #F2AEC9;
+    width:fit-content;
+    color:#fff;
+  }
+  
+  .sheet{
+    width:240px;
+    z-index: 1;
+    position:absolute;
+    top:280px;
+    left:34px;
+  }
+
+  .hideaway{
+    display:none;
+  }
+  
+  input{
+    width:276px;
+    background-color: #fff;
+    color:#F2AEC9;
+    margin: 8px 0px;
+    border:none;
+    height:30px;
+    padding:3px 18px;
+    float:left;
+  
+  }
+  
+  textarea{
+    background-color: #fff;
+    color:#F2AEC9;
+    min-width:276px;
+    min-height:200px;
+    margin: 8px 0px;
+    border:none;
+    padding:13px 18px;
+    float:left;
+  }
+  
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  .submit{
+    width:110px;
+  }
+  
+  .submit:hover{
+    background-color: #FF597B;
+    color:#fff;
+    cursor:pointer;
+  }
+  
+  .result{
+    color:#fff;
+    float:left;
+    font-family: "Metropolis bold";
+    text-align: left;
+  }
+  
+  #message{
+    padding-top: 1px;
+    display:inline-block;
+    text-align:center;
+    width:300px;
+  }
+  
+  .maneki{
+    background-image: url(images/maneki.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:360px;
+    height:530px;
+  }
+  
+  .paw{
+    position:relative;
+    margin-left:250px;
+    margin-top:230px;
+    -webkit-animation-name: wobble; 
+    animation-name: wobble; 
+  }
+  
+  .animated {
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+     animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes wobble { 
+    0% { transform: translateX(0%); } 
+    15% { transform: translateX(-31%) rotate(-18deg); } 
+    30% { transform: translateX(10%) rotate(14deg); } 
+    45% { transform: translateX(-38%) rotate(-16deg); } 
+    60% { transform: translateX(18%) rotate(15deg); } 
+    75% { transform: translateX(-35%) rotate(-13deg); } 
+    90% { transform: translateX(13%) rotate(10deg); } 
+    100% { transform: translate(1%)}
+  }
+  #references{
+    display:none;
+}
+#mediatabone{
+    display:none;
+}
+
+#mediatabtwo{
+    display:none;
+}
+
+#mediatabthree{
+    display:none;
+}
+
+#mediaone{
+    display:none;
+}
+
+#mediatwo{
+    display:none;
+}
+
+#mediathree{
+    display:none;
+}
+
+#skills{
+    display:none;
+}
+
+.grid-one{
+    display:none;
+}
+
+.grid-two{
+    display:none;
+}
+
+.grid-three{
+    display:none;
+}
+
+  }
+
+  @media screen and (min-width: 420px){
+    .belowheading{
+        font-size: 38px;
+    }
+
+    .hero{
+        height: 400px;
+    }
+
+    .mybio{
+        width: 350px;
+    }
+
+    .icons{
+        justify-content: space-between;
+    }
+
+    .desdev-explained{
+        width: 350px;
+    }
+
+    .exp-container{
+        width: 350px;
+    }
+
+    .education{
+        width:350px;
+    }
+
+    .mobile-portfolio-wrap{
+        height:550px;
+    }
+
+    .mobile-portfolio{
+        width: 9500px;
+    }
+
+    .contact-me{
+        margin-top: 570px;
+    }
+
+    .maneki{
+        margin-left: 30px;
+    }
+
+    .sheet{
+        left: 57px;
+    }
+
+    .social-position{
+        display:none;
+    }
+
+    #references{
+        display:none;
+    }
+    #mediatabone{
+        display:none;
+    }
+
+    #mediatabtwo{
+        display:none;
+    }
+
+    #mediatabthree{
+        display:none;
+    }
+
+    #mediaone{
+        display:none;
+    }
+
+    #mediatwo{
+        display:none;
+    }
+
+    #mediathree{
+        display:none;
+    }
+
+    #skills{
+        display:none;
+    }
+
+    .grid-one{
+        display:none;
+    }
+
+    .grid-two{
+        display:none;
+    }
+
+    .grid-three{
+        display:none;
+    }
+  }
+
+  @media screen and (min-width: 600px){
+    .belowheading{
+        font-size: 55px;
+    }
+
+    .mybio{
+        width: 500px;
+    }
+
+    .desdev-explained{
+        width: 500px;
+    }
+
+    .exp-container{
+        width: 500px;
+    }
+
+    .education{
+        width:500px;
+    }
+
+
+    .maneki{
+        margin-left: 0px;
+    }
+
+    .sheet{
+        left: 197px;
+    }
+
+    #references{
+        display:none;
+    }
+
+    #mediatabone{
+        display:none;
+    }
+
+    #mediatabtwo{
+        display:none;
+    }
+
+    #mediatabthree{
+        display:none;
+    }
+
+    #mediaone{
+        display:none;
+    }
+
+    #mediatwo{
+        display:none;
+    }
+
+    #mediathree{
+        display:none;
+    }
+
+    #skills{
+        display:none;
+    }
+
+    .grid-one{
+        display:none;
+    }
+
+    .grid-two{
+        display:none;
+    }
+
+    .grid-three{
+        display:none;
+    }
+
+  }
+
+  @media screen and (min-width: 700px){
+    .belowheading{
+        font-size: 65px;
+    }
+
+    .aboveheading{
+        padding-right: 70px;
+    }
+
+    .belowheading{
+        padding-right: 70px;
+    }
+
+    #slidenav{
+        right:61px;
+    }    
+
+    .social{
+        position:fixed;
+        width:45px;
+        top:0px;
+        right: 0px;
+        bottom: 0px;
+        background-color:white;
+        padding:8px;
+        z-index: 3;
+      }
+    
+      .social-position{
+        position:fixed;
+        bottom:0px;
+        display:block;
+      }
+    
+
+    .hero{
+        height: 530px;
+    }
+
+    .mybio{
+        width: 500px;
+        padding-right: 60px;
+        padding-top: 75px;
+    }
+
+
+    .icons{
+        padding: 60px 60px 60px 0px;
+        display: flex;
+        overflow: hidden;
+        width: 580px;
+        margin: 0 auto;
+      }
+    
+      .badweather{
+        margin-left:0px;
+      }
+    
+    .books{
+        margin-left: 0px;
+      }
+    
+    .andponies{
+        margin-left:0px;
+      }
+
+
+      .desdev-explained{
+        width: 500px;
+        padding-right: 60px;
+    }
+
+    .exp{
+        padding-left: 90px;
+        font-size: 48px;
+    }
+
+    .exp-container{
+        width: 453px;
+        padding-right:50px;
+    }
+
+    .education{
+        width:480px;
+        padding-right:60px;
+    }
+
+    .mobile-portfolio-wrap{
+        width: 90%;
+        margin-left: 7px;
+    }
+
+
+    .maneki{
+        margin-left: 0px;
+    }
+
+    .sheet{
+        left: 328px;
+        top: 59px;
+    }
+
+    #references {
+        margin: 0px 0px 50px 30px;
+        display:flex;
+        width: 85%;
+     }
+     
+     .bubbles {
+         border-radius: 15px;
+         background-color:#fff;
+         color:#F2AEC9;
+         font-family: "Metropolis bold";
+         font-size:19px;
+         padding: 9px 30px;
+         margin-right: 10px;
+     }
+     
+     .bubbles:hover{
+       cursor: pointer;
+       background-color: #F2AEC9;
+       color:#fff;
+     }
+
+     #mediatabone{
+        position:absolute;
+        left:0px;
+        top:2432px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-color:#fff;
+        color:#FF597B;
+        height: 250px;
+        text-align: center;
+        font-size:40px;
+        width:40px;
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        font-family: "Metropolis black";
+        padding: 16px;
+        z-index: 2;
+        display:block;
+    }
+    
+    #mediatabone:hover{
+        background-color: #F2AEC9;
+        color:#fff;
+        cursor:pointer;
+    }
+    
+    #mediatabtwo{
+        position:absolute;
+        left:0px;
+        top:2728px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-color:#FF597B;
+        color:#fff;
+        height: 100px;
+        text-align: center;
+        font-size:40px;
+        width:40px;
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        font-family: "Metropolis black";
+        padding: 16px;
+        z-index:3;
+        display:block;
+    }
+    
+    #mediatabtwo:hover{
+        background-color: #FFE4AC;
+        color:#fff;
+        cursor:pointer;
+    }
+    
+    #mediatabthree{
+        position: absolute;
+        left:0px;
+        top: 2874px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-color:#F2AEC9;
+        color:#fff;
+        height: 100px;
+        text-align: center;
+        font-size:40px;
+        height: 120px;
+        width:40px;
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        font-family: "Metropolis black";
+        padding: 16px;
+        z-index: 4;
+        display:block;
+    }
+    
+    #mediatabthree:hover{
+        background-color: #fff;
+        color:#FF597B;
+        cursor: pointer;
+    }
+    
+    #mediaone{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color:#fff;
+        padding: 40px;
+        position: absolute;
+        left:0px;
+        top: 2305px;
+        display: none;
+        z-index: 3;
+    }
+    
+    #mediaone:hover {
+        cursor:pointer;
+    }
+    
+    #mediatwo{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color:#FF597B;
+        padding: 40px;
+        position: absolute;
+        left:0px;
+        top: 2451px;
+        display: none;
+        z-index: 3;
+    }
+    
+    #mediatwo:hover {
+        cursor:pointer;
+    }
+    
+    #mediathree{
+        transition: 0.5s;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color:#F2AEC9;
+        padding: 40px;
+        position: absolute;
+        left:0px;
+        top: 2618px;
+        display: none;
+        z-index: 5;
+    }
+    
+    #mediathree:hover {
+        cursor:pointer;
+    }
+
+
+#skills{
+    margin: 0px 40px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    display:flex;
+    width: 85%;
+}
+
+#skills .bubbles{
+    animation-name: blink;
+    animation-iteration-count: 20;
+    justify-content: space-around;
+    margin: 5px 2px;
+
+}
+
+
+@keyframes blink {
+    0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+
+.grid-one{
+    display:none;
+}
+
+.grid-two{
+    display:none;
+}
+
+.grid-three{
+    display:none;
+}
+
+  }
+
+  @media screen and (min-width: 850px){
+    .aboveheading{
+        font-size: 35px;
+    }
+
+    .belowheading{
+        font-size: 75px;
+    }
+
+    .mybio{
+        width:580px;
+    }
+
+    .desdev{
+        font-size: 58px;
+        padding: 27px 0px;
+        margin-right:60px;
+    }
+
+    .over-desdev{
+        padding: 0px 60px;
+        display:block;
+    }
+
+    .desdev-explained{
+        width:300px;
+        float:left;
+        margin-bottom: 40px;
+    }
+
+    .exp{
+        clear:both;
+    }
+
+    .education{
+        display: block;
+        width:720px;
+        padding-top: 8px;
+    }
+
+    .lu{
+        float:right;
+        width:363px;
+    }
+
+    .cca{
+        float:right;
+        width: 363px;
+    }
+
+    .ca{
+        float:left;
+        width: 280px;
+        margin-top: -245px;
+    }
+
+    .work{
+        clear:both;
+    }
+
+    .maneki{
+        margin-left: 42px;
+    }
+
+    .sheet{
+        left: 432px;
+    }
+
+    .grid-one{
+        display:none;
+    }
+
+    .grid-two{
+        display:none;
+    }
+
+    .grid-three{
+        display:none;
+    }
+
+  }
+
+  @media screen and (min-width: 950px){
+    .over-desdev{
+        padding: 0px 100px;
+        margin-left:20px;
+    }
+
+    .hero{
+        height:700px;
+    }
+    .exp-container{
+        width:530px;
+    }
+    .education{
+        width:850px;
+    }
+
+    .lu{
+        width: 450px;
+    }
+
+    .cca{
+        width:450px;
+    }
+
+    .ca{
+        width: 335px;
+        margin-top: -205px;
+    }
+
+    .mobile-portfolio-wrap{
+        display:none;
+    }
+
+    .grid-one{
+        width:89%;
+        display:grid;
+        grid-template-columns:1fr 1.7fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        min-height:410px;
+        grid-gap: 5px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+      }
+      
+      .heart{
+        background-color: #F2AEC9;
+        border-radius: 20px;
+        grid-area: 2 / 1 / 2 / 1;
+        padding:25px;
+        background-image: url(images/beatheart1.png);
+        background-size: cover;
+        background-repeat: none;
+      }
+      
+      .big-one{
+        background-color: white;
+        border-radius: 20px;
+        grid-area: 1 / 2 / span2 / 2;
+        background-image: url(images/loveandflowers.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:top;
+        padding: 120px 50px;
+        font-size:50px;
+        color:#FF8999;
+        font-family: "Metropolis black";
+      }
+      
+      .big-one:hover{
+        cursor:pointer;
+      }
+      
+      .masklove{
+        background:#fff;
+        display:none;
+        padding: 20px;
+        font-size:35px;
+        font-family: "Metropolis black";
+        color:#FF8999;
+      }
+      .little-one{
+        background-color: white;
+        border-radius: 20px;
+        grid-area: 1 / 3 / 1 / 3;
+        background-image: url(images/rose&Axe.png);
+        background-size:330px;
+        background-repeat: no-repeat;
+        background-position:center;
+      }
+      
+      .little-two{
+        background-color: white;
+        border-radius: 20px;
+        grid-area: 1 / 4 / 1 / 4;
+        background-image: url(images/summon.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .little-three{
+        background-color: white;
+        border-radius: 20px;
+        grid-area: 2 / 3 / 2 / 3;
+        background-image: url(images/msc.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .little-four{
+        background-color: white;
+        border-radius: 20px;
+        grid-area: 2 / 4 / 2 / 4;
+        background-image: url(images/greenknight.png);
+        background-size:320px;
+        background-repeat: no-repeat;
+        background-position-x:-45px;
+        background-position-y: -70px;
+        background-position: center;
+      }
+
+
+.grid-two{
+    width:89%;
+    display:grid;
+    grid-template-columns:1.7fr 1.7fr 1.7fr;
+    grid-template-rows: 1fr 1fr;
+    min-height:350px;
+    grid-gap: 5px;
+    margin-bottom:5px;
+    margin-left: 30px;
+  }
+  
+  .big-two{
+    background-color: white;
+    border-radius: 20px;
+    grid-area: 1 / 1 / span2 / 1;
+    background-image: url(images/emilywinter.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding: 95px 50px;
+    font-size:50px;
+    color:#FF8999;
+    font-family: "Metropolis black";
+  }
+  
+  .big-two:hover{
+    cursor:pointer;
+  }
+  
+  
+  .big-three{
+    background-color: white;
+    border-radius: 20px;
+    grid-area: 1 / 2 / span2 / 2;
+    background-image: url(images/blog.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 95px 40px;
+    font-size:50px;
+    color:#FF8999;
+    font-family: "Metropolis black";
+  }
+  
+  .big-three:hover{
+    cursor:pointer;
+  }
+  
+  .big-four{
+    background-color: white;
+    border-radius: 20px;
+    grid-area: 1 / 3 / span2 / 3;
+    background-image: url(images/wtwc.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding: 95px 50px;
+    font-size:40px;
+    color:#FF8999;
+    font-family: "Metropolis black";
+  }
+  
+  .big-four:hover{
+    cursor:pointer;
+  }
+
+
+.grid-four{
+    width:89%;
+    display:grid;
+    grid-template-columns:1.7fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height:450px;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+  }
+  
+  .big-five{
+    background-color: black;
+    border-radius: 20px;
+    grid-area: 1 / 1 / span2 / 1;
+    background-image: url(images/inayearsite.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 95px 50px;
+    font-size:60px;
+    color:#FF8999;
+    font-family: "Metropolis black";
+  }
+  
+  .big-five:hover{
+    cursor:pointer;
+  }
+  
+  .little-nine{
+     background-color: white;
+    border-radius: 20px;
+    grid-area: 1 / 2 / 1 / 2;
+    background-image: url(images/flowers.png);
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .little-ten{
+     background-color: white;
+    border-radius: 20px;
+    grid-area: 2 / 2 / 2 / 2;
+    background-image: url(images/faolan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+  
+  .heart-two{
+      background-color: #FFE4AC;
+    border-radius: 20px;
+    grid-area: 1 / 3 / 1 / 3;
+     padding:25px;
+     background-image: url(images/beatheart2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: -40px;
+    background-position-y: -3px;
+  }
+
+  .contact-me{
+    margin-top:22px;
+  }
+
+  .maneki{
+    margin-left:103px;
+  }
+
+  .sheet{
+    left: 465px;
+  }
+
+  }
+
+@media screen and (min-width: 1100px){
+    .hero{
+        height: 1000px;
+    }
+
+    .mybio{
+        padding-top: 200px;
+    }
+
+    .desdev{
+        margin-top: 200px;
+    }
+
+    .over-desdev{
+        margin-left: 131px;
+    }
+
+    #mediatabone{
+        top: 2875px;
+     }
+ 
+     #mediaone{
+         top: 2748px;
+     }
+
+    #mediatabtwo{
+        top: 3171px;
+     }
+ 
+     #mediatwo{
+         top: 2895px;
+     }
+
+    #mediatabthree{
+       top: 3316px;
+    }
+
+    #mediathree{
+        top: 3059px;
+    }
+
+    .exp-container{
+        margin: 0 250px;
+    }
+
+    .education{
+        width: 770px;
+        margin: 0px 264px;
+    }
+
+    .edustacker-wrapper{
+        width: 350px;
+        float:right;
+    }
+
+    .ca{
+        margin-top: 0px;
+        padding: 100px 0px;
+        width:380px;
+    }
+
+    .lu{
+        width: 350px;
+        margin-left: 10px;
+        padding-top: 50px;
+    }
+
+    .cca{
+        width: 350px;
+        padding: 20px 0px;
+    }
+    .maneki{
+        margin-left:216px;
+    }
+
+    .sheet{
+        left: 602px;
+    }
+}
