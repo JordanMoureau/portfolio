@@ -1126,8 +1126,6 @@ html {
      
      .bubbles:hover{
        cursor: pointer;
-       background-color: #F2AEC9;
-       color:#fff;
      }
 
      #mediatabone{
@@ -1539,7 +1537,7 @@ html {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: left;
-    padding: 95px 40px;
+    padding: 65px 40px;
     font-size:50px;
     color:#FF8999;
     font-family: "Metropolis black";

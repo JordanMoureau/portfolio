@@ -398,11 +398,10 @@ function bigOneMask() {
   }
   
   function littleNineMask() {
-    document.getElementById("littleNine").style.gridArea = "1 / 1 / span2 / 3";
+    document.getElementById("littleNine").style.gridArea = "1 / 2 / span2 / 2";
     document.getElementById("littleTen").style.display = "none";
     document.getElementById("littleNine").style.backgroundSize= "cover";
     document.getElementById("littleNine").style.backgroundPosition= "center";
-    document.getElementById("bigFive").style.display = "none";
   }
   
   function littleNineOut() {
@@ -414,9 +413,8 @@ function bigOneMask() {
   }
   
   function littleTenMask() {
-    document.getElementById("littleTen").style.gridArea = "1 / 1 / span2 / span 2";
+    document.getElementById("littleTen").style.gridArea = "1 / 2 / span2 / 2";
     document.getElementById("littleNine").style.display = "none";
-    document.getElementById("bigFive").style.display = "none";
   }
   
   function littleTenOut() {
