@@ -22,7 +22,7 @@ function open_close() {
    }
    else {
     menuState = 0;
-    document.getElementById("slidenav").style.width = "45px";
+    document.getElementById("slidenav").style.width = "37px";
    }
    console.log(menuState);
 } 

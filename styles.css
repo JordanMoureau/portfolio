@@ -422,7 +422,7 @@ html {
         background-color:#fff;
         text-transform: uppercase;
         color:#FF597B;
-        font-size:35px;
+        font-size:50px;
         padding:3px 10px 3px 0px;
     }
 
@@ -439,7 +439,7 @@ html {
         overflow:hidden;
         background-color:#FF597B;
         color:#F2AEC9;
-        width: 45px;
+        width: 37px;
         border-bottom-left-radius: 18px;
         padding: 5px 10px;
         font-family: "Metropolis bold";
@@ -450,13 +450,13 @@ html {
     
     .sticky{
         position:fixed;
-        top:0px;
+        top:-1px;
         right:0px;
         overflow:hidden;
       }
     
     #slidenav a {
-        margin: 4px 15px 0px 4px;
+        margin: 4px 5px 0px 4px;
         align-items: center;
         justify-content: space-between;
       }
@@ -486,7 +486,7 @@ html {
 
       h3 {
         font-family: "Metropolis bold";
-        font-size: 40px;
+        font-size:35px;
         margin-block-start: 0;
         margin-block-end: 0;
       }
@@ -519,7 +519,7 @@ html {
         animation-iteration-count: infinite;
         animation-direction: alternate;
         animation-delay: 2s;
-        margin-left: -30px;
+        margin-left: -58px;
       }
     
     .andponies{
@@ -528,7 +528,7 @@ html {
         animation-iteration-count: infinite;
         animation-delay:4s;
         animation-direction: alternate;
-        margin-left: -30px;
+        margin-left: -58px;
       }
     
       
@@ -694,7 +694,7 @@ html {
     z-index: 1;
     position:absolute;
     top:280px;
-    left:34px;
+    left:10px;
   }
 
   .hideaway{
@@ -758,6 +758,7 @@ html {
     background-size:contain;
     width:360px;
     height:530px;
+    margin-left: -18px;
   }
   
   .paw{
@@ -832,7 +833,7 @@ html {
 
   }
 
-  @media screen and (min-width: 420px){
+  @media screen and (min-width: 400px){
     .belowheading{
         font-size: 38px;
     }
@@ -883,6 +884,12 @@ html {
 
     .social-position{
         display:none;
+    }
+
+    #slidenav a {
+      margin: 4px 15px 0px 4px;
+      align-items: center;
+      justify-content: space-between;
     }
 
     #references{
