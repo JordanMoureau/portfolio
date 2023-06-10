@@ -327,9 +327,9 @@ function bigOneMask() {
     document.getElementById("bigFive").innerHTML = "For Keeping track of my Life.";
   }
   
- /* function bigFiveClick (){
+ function bigFiveClick (){
     window.open("https://todo.jordanmoureau.com");
-  }*/
+  }
   
   function bigFiveOut() {
     document.getElementById("bigFive").innerHTML = "";
