@@ -427,7 +427,7 @@ html {
     }
 
     .hero{
-        background-image: url("images/greenchair.png");
+        background-image: url("images/hero.png");
         background-size: cover;
         background-position: center;
         height:450px;
@@ -815,7 +815,7 @@ html {
     display:none;
 }
 
-#skills{
+.skills{
     display:none;
 }
 
@@ -919,7 +919,7 @@ html {
         display:none;
     }
 
-    #skills{
+    .skills{
         display:none;
     }
 
@@ -994,7 +994,7 @@ html {
         display:none;
     }
 
-    #skills{
+    .skills{
         display:none;
     }
 
@@ -1264,7 +1264,7 @@ html {
     }
 
 
-#skills{
+.skills{
     margin: 0px 40px;
     padding-right: 50px;
     padding-bottom: 0px;
@@ -1272,7 +1272,7 @@ html {
     width: 85%;
 }
 
-#skills .bubbles{
+.skills .bubbles{
     animation-name: blink;
     animation-iteration-count: 20;
     justify-content: space-around;

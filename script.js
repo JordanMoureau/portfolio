@@ -1,14 +1,4 @@
-const heroAction = setTimeout(heroFlip, 45000);
 
-function heroFlip(){
-  document.getElementById("hero").style.backgroundImage = "url(images/hero.png)";
-}
-
-const heroActionAgain = setTimeout(heroFlipOver, 100000);
-
-function heroFlipOver() {
-  document.getElementById("hero").style.backgroundImage = "url(images/greenchair.png)";
-}
 
 //slide out navigation bar
 
