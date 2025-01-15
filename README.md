@@ -1,5 +1,5 @@
 # Jordan's Portfolio and Resume
-## A website that shows my skill level as a developer, displays the projects I've built and my scope as a designer. I've cram packed a lot of interactivity and flashy do jobers into this site, mainly to show what I can do, the kinds of problems I can tackle at my current skill level.
+## A website that shows my skill level as a developer, displays the projects I've built and my scope as a designer. As of now.
 
 ### Features
 + CSS animation with keyframes and webkit
